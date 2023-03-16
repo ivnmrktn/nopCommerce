@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Migav Plugins",
+  "FriendlyName": "Site Integration",
+  "SystemName": "Demo.Integration",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "Migav team",
+  "DisplayOrder": -1,
+  "FileName": "Nop.Plugin.Demo.Integration.dll",
+  "Description": "Note for production use."
+}

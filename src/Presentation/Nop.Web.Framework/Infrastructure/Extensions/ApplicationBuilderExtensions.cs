@@ -63,7 +63,7 @@ namespace Nop.Web.Framework.Infrastructure.Extensions
             if (DataSettingsManager.IsDatabaseInstalled())
             {
                 //log application start
-                engine.Resolve<ILogger>().Information("Application started");
+                engine.Resolve<ILogger>().Information("Application started"); 
 
                 //install and update plugins
                 var pluginService = engine.Resolve<IPluginService>();

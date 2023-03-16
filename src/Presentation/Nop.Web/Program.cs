@@ -38,7 +38,8 @@ else
 builder.Services.ConfigureApplicationServices(builder);
 
 var app = builder.Build();
-
+app.Urls.Add("http://blazornet:7550");
+app.Urls.Add("http://blazornet.mig:7553");
 //configure the application HTTP request pipeline
 app.ConfigureRequestPipeline();
 app.StartEngine();
